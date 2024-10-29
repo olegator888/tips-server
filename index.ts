@@ -12,6 +12,10 @@ const io = new Server(server, {
   },
 });
 
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
 server.listen(PORT, () => {
   console.log(`server running at port ${PORT}`);
 });
