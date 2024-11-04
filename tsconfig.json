@@ -1,14 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "Preserve",
-    "outDir": "./dist",
-    "rootDir": "./",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "include": ["./**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+    "downlevelIteration": true,
+    "target": "ES2023",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist"
+  }
 }
